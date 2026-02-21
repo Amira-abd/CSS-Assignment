@@ -16,8 +16,9 @@ input[type="text"] {
     padding: 5px;
 }
 
-/* Attribute Selector */
+/* element Selector */
 a {
     color: orange;
     font-weight: bold;
 }
+
