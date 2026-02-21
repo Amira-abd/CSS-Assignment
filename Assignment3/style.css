@@ -1,0 +1,78 @@
+
+.container {
+  width: 300px;
+  padding: 20px;              /* inside */
+  border: 5px solid rgb(0, 0, 0);     /* border */
+  margin: 30px;               /* outside */
+}
+
+
+.container p,h2{
+    color: tomato;
+
+}
+
+.box {
+  padding: 15px 30px;      /* shorthand padding */
+  margin: 20px 0;          /* shorthand margin */
+}
+
+.box1 {
+  border: 3px dashed red;
+}
+
+.box2 {
+  border: 6px double green;
+}
+
+.dimensions {
+  width: 250px;
+  height: 100px;
+  max-width: 300px;
+  background-color: lightblue;
+  outline: 4px solid purple;  /* outline */
+  margin: 20px 0;
+  padding: 10px;
+}
+
+/* Display Types */
+
+.block {
+  display: block;
+  background-color: orange;
+  margin-bottom: 10px;
+}
+
+.inline {
+  display: inline;
+  background-color: yellow;
+  padding: 5px;
+}
+
+.inline-block {
+  display: inline-block;
+  width: 120px;
+  background-color: pink;
+  margin: 10px;
+  text-align: center;
+}
+
+.hidden {
+  display: none;  /* removed from layout */
+}
+
+ /* Overflow and Visibility */
+.overflow-box {
+  width: 200px;
+  height: 80px;
+  border: 2px solid black;
+  overflow: auto;   /* try hidden / scroll */
+  padding: 10px;
+}
+
+.visibility-hidden {
+  visibility: hidden; /* hidden but keeps space */
+  margin-top: 20px;
+  background-color: lightcoral;
+  padding: 10px;
+}

@@ -1,0 +1,31 @@
+.hero {
+  background-image: url("images.jpeg");
+  background-size: cover;        
+  background-position: center;   
+  background-repeat: no-repeat;  
+  background-attachment: fixed; 
+  height: 100vh; 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.overlay {
+  background-color: rgba(0, 0, 0, 0.6); 
+  color: white;
+  border-radius: 10px;
+  padding: 40px;
+  text-align: center;
+}
+
+.overlay button {
+  padding: 10px 20px;
+  border: #5c74d4 solid;
+  background-color: #5c74d4;
+  color: white;
+}
+
+.content {
+  height: 100vh;
+  padding: 40px;
+}

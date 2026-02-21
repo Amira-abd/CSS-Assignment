@@ -1,0 +1,8 @@
+/* What CSS is?
+CSS stands for Cascading Style Sheets.
+CSS is the language we use to style a Web page.
+
+
+Why we use CSS instead of styling directly in HTML?
+We use CSS instead of styling directly in HTML because of separation of Concerns
+The CSS code is separated into a separate file so that each file is responsible for one function. */
