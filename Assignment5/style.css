@@ -1,0 +1,64 @@
+.colorName{
+    color: red;
+    text-align: right;
+}
+
+.hex{
+    color: #2273ec;
+     word-spacing: 5px;
+
+}
+
+.RGB{
+    color: rgb(19, 196, 3);
+}
+
+.shadow{
+      text-shadow: 2px 2px #b3a6a6;
+      letter-spacing: 2px;
+
+}
+h1,h2{
+    text-align: center;
+    text-decoration: underline;
+
+}
+.just{
+    text-align: justify;
+    line-height: 30px;
+    
+}
+
+.nav a{
+    text-decoration: none;
+}
+
+.Serif{
+    font-family: serif;
+    color: rgb(88, 56, 6);
+    font-size: 20px;
+    height: 20vh;   /* 20% of the screen height */
+}
+.Sans-serif{
+    font-family: "Open Sans", sans-serif;
+    color: blue;
+    font-weight: 400px;
+    font-size: 2rem;  /* font size = 32px */
+}
+.Monospace{
+    font-family: Monospace;
+    font-style: italic;
+     text-shadow: 2px 2px 4px rgba(194, 54, 35, 0.5);
+
+}
+.font-family{
+    width: 80%;
+
+}
+
+.block h2{
+    text-transform: uppercase;
+    text-overflow: ellipsis;
+    white-space: initial;
+
+}
