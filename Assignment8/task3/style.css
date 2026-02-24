@@ -1,0 +1,79 @@
+/* light Mode Variables */
+:root {
+  --bg-color: #f4f6f9;
+  --card-bg: #ffffff;
+  --text-color: #222;
+  --primary: #4CAF50;
+}
+
+/* Dark Mode Variables */
+#dark-mode:checked ~ .container {
+  --bg-color: #1e1e1e;
+  --card-bg: #2c2c2c;
+  --text-color: #f1f1f1;
+  --primary: #00c896;
+}
+
+   /* Card Component */
+
+.container {
+  background: var(--bg-color);
+  color: var(--text-color);
+  min-height: 100vh;
+  padding: 40px;
+  transition: 0.4s ease;
+}
+
+/* Card */
+.card {
+  background: var(--card-bg);
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  transition: transform 1s ease 1s;
+}
+
+.card:hover{
+  background-color: antiquewhite;
+  color: black;
+  cursor: pointer;
+  transform:scale(0.8);
+}
+
+   /* Styled Table */
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: var(--spacing);
+}
+
+th {
+  background: var(--primary-color);
+  color: white;
+  padding: 10px;
+}
+
+td {
+  padding: 10px;
+  border-bottom: 1px solid #ccc;
+}
+
+   /* Styled List */
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+ul li {
+  padding: 10px;
+  margin-bottom: 5px;
+  background: var(--card-bg);
+  border-left: 4px solid var(--primary-color);
+  transition: 0.3s;
+}
+
+ul li:hover {
+  transform: translateX(5px);
+}
